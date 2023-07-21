@@ -1,0 +1,582 @@
+# Translations template for Payments.
+# Copyright (C) 2023 Frappe Technologies
+# This file is distributed under the same license as the Payments project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Payments VERSION\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2023-07-17 20:17+0000\n"
+"PO-Revision-Date: 2023-07-17 20:17+0000\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: hello@frappe.io\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#. DocType: Razorpay Settings:1
+msgid "API Key"
+msgstr ""
+
+#. Label of a Data field in DocType 'Razorpay Settings'
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgctxt "Razorpay Settings"
+msgid "API Key"
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "API Password"
+msgstr ""
+
+#. Label of a Password field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "API Password"
+msgstr ""
+
+#. DocType: Razorpay Settings:1
+msgid "API Secret"
+msgstr ""
+
+#. Label of a Password field in DocType 'Razorpay Settings'
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgctxt "Razorpay Settings"
+msgid "API Secret"
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "API Username"
+msgstr ""
+
+#. Label of a Data field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "API Username"
+msgstr ""
+
+#: overrides/payment_webform.py:23
+msgid "Amount must be greater than 0."
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:50
+msgid "An error occured during the payment process. Please contact us."
+msgstr ""
+
+#. Name of a DocType
+#. DocType: Braintree Settings:1
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgid "Braintree Settings"
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:41
+msgid "Card Details"
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "Check this if you are testing your payment using the Sandbox API"
+msgstr ""
+
+#. Description of a Check field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "Check this if you are testing your payment using the Sandbox API"
+msgstr ""
+
+#: templates/pages/payment-cancel.html:13
+#: templates/pages/payment-failed.html:13
+#: templates/pages/payment-success.html:17
+msgid "Continue"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:435
+msgid "Controller method get_razorpay_order missing"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:437
+msgid "Could not create Razorpay order. Please contact Administrator"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:236
+msgid "Could not create razorpay order"
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:34
+msgid "Email"
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:471
+msgid "Failed while amending subscription"
+msgstr ""
+
+#: payment_gateways/doctype/stripe_settings/stripe_settings.py:185
+msgid "For currency {0}, the minimum transaction amount should be {1}"
+msgstr ""
+
+#: payment_gateways/doctype/paytm_settings/paytm_settings.js:6
+msgid "For more information, {0}."
+msgstr ""
+
+#. DocType: Payment Gateway:1
+msgid "Gateway"
+msgstr ""
+
+#. Label of a Data field in DocType 'Payment Gateway'
+#: payments/doctype/payment_gateway/payment_gateway.json
+msgctxt "Payment Gateway"
+msgid "Gateway"
+msgstr ""
+
+#. DocType: Payment Gateway:1
+msgid "Gateway Controller"
+msgstr ""
+
+#. Label of a Dynamic Link field in DocType 'Payment Gateway'
+#: payments/doctype/payment_gateway/payment_gateway.json
+msgctxt "Payment Gateway"
+msgid "Gateway Controller"
+msgstr ""
+
+#. DocType: Payment Gateway:1
+msgid "Gateway Settings"
+msgstr ""
+
+#. Label of a Link field in DocType 'Payment Gateway'
+#: payments/doctype/payment_gateway/payment_gateway.json
+msgctxt "Payment Gateway"
+msgid "Gateway Settings"
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Header Image"
+msgstr ""
+
+#. Label of a Attach Image field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Header Image"
+msgstr ""
+
+#. Label of a Attach Image field in DocType 'Stripe Settings'
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgctxt "Stripe Settings"
+msgid "Header Image"
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:510
+msgid "In Valid Request"
+msgstr ""
+
+#. DocType: Paytm Settings:1
+msgid "Industry Type ID"
+msgstr ""
+
+#. Label of a Data field in DocType 'Paytm Settings'
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgctxt "Paytm Settings"
+msgid "Industry Type ID"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:525
+msgid "Invalid Subscription"
+msgstr ""
+
+#: templates/pages/paytm_checkout.py:30 templates/pages/razorpay_checkout.py:43
+msgid "Invalid Token"
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:173
+msgid "Invalid payment gateway credentials"
+msgstr ""
+
+#: payment_gateways/doctype/stripe_settings/stripe_settings.py:209
+msgid ""
+"It seems that there is an issue with the server's stripe configuration. "
+"In case of failure, the amount will get refunded to your account."
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:27
+msgid "John Doe"
+msgstr ""
+
+#: templates/pages/braintree_checkout.py:50
+#: templates/pages/stripe_checkout.py:55
+msgid ""
+"Looks like someone sent you to an incomplete URL. Please ask them to look"
+" into it."
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:220
+msgid "Looks like something is wrong with this site's Paypal configuration."
+msgstr ""
+
+#: utils/utils.py:33
+msgid ""
+"Looks like something is wrong with this site's payment gateway "
+"configuration. No payment has been made."
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:285
+msgid ""
+"Looks like something went wrong during the transaction. Since we haven't "
+"confirmed the payment, Paypal will automatically refund you this amount. "
+"If it doesn't, please send us an email and mention the Correlation ID: "
+"{0}."
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "Mention transaction completion page URL"
+msgstr ""
+
+#. Description of a Data field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "Mention transaction completion page URL"
+msgstr ""
+
+#. Description of a Data field in DocType 'Razorpay Settings'
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgctxt "Razorpay Settings"
+msgid "Mention transaction completion page URL"
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Merchant ID"
+msgstr ""
+
+#. Label of a Data field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Merchant ID"
+msgstr ""
+
+#. Label of a Data field in DocType 'Paytm Settings'
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgctxt "Paytm Settings"
+msgid "Merchant ID"
+msgstr ""
+
+#. DocType: Paytm Settings:1
+msgid "Merchant Key"
+msgstr ""
+
+#. Label of a Password field in DocType 'Paytm Settings'
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgctxt "Paytm Settings"
+msgid "Merchant Key"
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:26
+msgid "Name"
+msgstr ""
+
+#: templates/pages/braintree_checkout.html:29
+#: templates/pages/stripe_checkout.html:48
+msgid "Pay"
+msgstr ""
+
+#. Name of a DocType
+#. DocType: PayPal Settings:1
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgid "PayPal Settings"
+msgstr ""
+
+#: templates/pages/payment-cancel.html:3 templates/pages/payment-cancel.html:9
+msgid "Payment Cancelled"
+msgstr ""
+
+#: templates/pages/payment-failed.html:3 templates/pages/payment-failed.html:9
+msgid "Payment Failed"
+msgstr ""
+
+#. Name of a DocType
+#. DocType: Payment Gateway:1
+#: payments/doctype/payment_gateway/payment_gateway.json
+msgid "Payment Gateway"
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Payment Gateway Name"
+msgstr ""
+
+#. Label of a Data field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Payment Gateway Name"
+msgstr ""
+
+#. Label of a Data field in DocType 'Stripe Settings'
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgctxt "Stripe Settings"
+msgid "Payment Gateway Name"
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Payment Gateways"
+msgstr ""
+
+#: templates/pages/payment-success.html:3
+msgid "Payment Success"
+msgstr ""
+
+#. DocType: Payment Gateway:1
+#: config/desktop.py:5
+msgid "Payments"
+msgstr ""
+
+#. Name of a DocType
+#. DocType: Paytm Settings:1
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgid "Paytm Settings"
+msgstr ""
+
+#: overrides/payment_webform.py:21
+msgid "Please select a Amount Field."
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:131
+msgid ""
+"Please select another payment method. PayPal does not support "
+"transactions in currency '{0}'"
+msgstr ""
+
+#: payment_gateways/doctype/paytm_settings/paytm_settings.py:36
+msgid ""
+"Please select another payment method. Paytm does not support transactions"
+" in currency '{0}'"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:111
+msgid ""
+"Please select another payment method. Razorpay does not support "
+"transactions in currency '{0}'"
+msgstr ""
+
+#: payment_gateways/doctype/braintree_settings/braintree_settings.py:183
+#: payment_gateways/doctype/stripe_settings/stripe_settings.py:176
+msgid ""
+"Please select another payment method. Stripe does not support "
+"transactions in currency '{0}'"
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Private Key"
+msgstr ""
+
+#. Label of a Password field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Private Key"
+msgstr ""
+
+#: templates/includes/stripe_checkout.js:33
+msgid "Processing..."
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Public Key"
+msgstr ""
+
+#. Label of a Data field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Public Key"
+msgstr ""
+
+#. DocType: Stripe Settings:1
+msgid "Publishable Key"
+msgstr ""
+
+#. Label of a Data field in DocType 'Stripe Settings'
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgctxt "Stripe Settings"
+msgid "Publishable Key"
+msgstr ""
+
+#. Name of a DocType
+#. DocType: Razorpay Settings:1
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgid "Razorpay Settings"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:367
+msgid "Razorpay Signature Verification Failed"
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "Redirect To"
+msgstr ""
+
+#. Label of a Data field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "Redirect To"
+msgstr ""
+
+#. Label of a Data field in DocType 'Razorpay Settings'
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+msgctxt "Razorpay Settings"
+msgid "Redirect To"
+msgstr ""
+
+#. DocType: Stripe Settings:1
+msgid "Redirect URL"
+msgstr ""
+
+#. Label of a Data field in DocType 'Stripe Settings'
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgctxt "Stripe Settings"
+msgid "Redirect URL"
+msgstr ""
+
+#. DocType: Stripe Settings:1
+msgid "Secret Key"
+msgstr ""
+
+#. Label of a Password field in DocType 'Stripe Settings'
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgctxt "Stripe Settings"
+msgid "Secret Key"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:106
+msgid "Seems API Key or API Secret is wrong !!!"
+msgstr ""
+
+#: payment_gateways/doctype/stripe_settings/stripe_settings.py:171
+msgid "Seems Publishable Key or Secret Key is wrong !!!"
+msgstr ""
+
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:251
+msgid ""
+"Seems issue with server's razorpay config. Don't worry, in case of "
+"failure amount will get refunded to your account."
+msgstr ""
+
+#: templates/pages/paytm_checkout.py:31 templates/pages/razorpay_checkout.py:44
+msgid "Seems token you are using is invalid!"
+msgstr ""
+
+#: payment_gateways/doctype/braintree_settings/braintree_settings.py:202
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:250
+#: payment_gateways/doctype/stripe_settings/stripe_settings.py:208
+msgid "Server Error"
+msgstr ""
+
+#. DocType: PayPal Settings:1
+msgid "Signature"
+msgstr ""
+
+#. Label of a Data field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "Signature"
+msgstr ""
+
+#: templates/pages/braintree_checkout.py:49
+#: templates/pages/stripe_checkout.py:54
+msgid "Some information is missing"
+msgstr ""
+
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:284
+#: utils/utils.py:32
+msgid "Something went wrong"
+msgstr ""
+
+#. DocType: Paytm Settings:1
+msgid "Staging"
+msgstr ""
+
+#. Label of a Check field in DocType 'Paytm Settings'
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgctxt "Paytm Settings"
+msgid "Staging"
+msgstr ""
+
+#. Name of a DocType
+#. DocType: Stripe Settings:1
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+msgid "Stripe Settings"
+msgstr ""
+
+#: templates/pages/payment-success.html:9
+msgid "Success"
+msgstr ""
+
+#. Name of a role
+#. DocType: Braintree Settings:1
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+#: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
+#: payment_gateways/doctype/stripe_settings/stripe_settings.json
+#: payments/doctype/payment_gateway/payment_gateway.json
+msgid "System Manager"
+msgstr ""
+
+#: payment_gateways/doctype/braintree_settings/braintree_settings.py:203
+msgid ""
+"There seems to be an issue with the server's braintree configuration. "
+"Don't worry, in case of failure, the amount will get refunded to your "
+"account."
+msgstr ""
+
+#. DocType: Braintree Settings:1
+msgid "Use Sandbox"
+msgstr ""
+
+#. Label of a Check field in DocType 'Braintree Settings'
+#: payment_gateways/doctype/braintree_settings/braintree_settings.json
+msgctxt "Braintree Settings"
+msgid "Use Sandbox"
+msgstr ""
+
+#. Label of a Check field in DocType 'PayPal Settings'
+#: payment_gateways/doctype/paypal_settings/paypal_settings.json
+msgctxt "PayPal Settings"
+msgid "Use Sandbox"
+msgstr ""
+
+#. DocType: Paytm Settings:1
+msgid "Website"
+msgstr ""
+
+#. Label of a Data field in DocType 'Paytm Settings'
+#: payment_gateways/doctype/paytm_settings/paytm_settings.json
+msgctxt "Paytm Settings"
+msgid "Website"
+msgstr ""
+
+#: overrides/payment_webform.py:71
+msgid "You are not allowed to update this Web Form Document"
+msgstr ""
+
+#: overrides/payment_webform.py:115
+msgid "You must login to submit this form"
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:51
+msgid "Your payment has been successfully registered."
+msgstr ""
+
+#: templates/pages/payment-failed.html:11
+msgid "Your payment has failed."
+msgstr ""
+
+#: templates/pages/payment-cancel.html:11
+msgid "Your payment is cancelled."
+msgstr ""
+
+#: templates/pages/payment-success.html:11
+msgid "Your payment was successfully accepted"
+msgstr ""
+
+#: templates/pages/stripe_checkout.html:35
+msgid "john@doe.com"
+msgstr ""
+
+#: utils/utils.py:14 utils/utils.py:19
+msgid "{0} Settings not found"
+msgstr ""
+
