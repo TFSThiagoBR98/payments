@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Payments VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-07-17 20:17+0000\n"
+"POT-Creation-Date: 2023-08-26 23:01+0000\n"
+"PO-Revision-Date: 2023-08-26 23:01+0000\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -16,18 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#. DocType: Razorpay Settings:1
-msgid "API Key"
-msgstr ""
-
 #. Label of a Data field in DocType 'Razorpay Settings'
 #: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgctxt "Razorpay Settings"
 msgid "API Key"
-msgstr ""
-
-#. DocType: PayPal Settings:1
-msgid "API Password"
 msgstr ""
 
 #. Label of a Password field in DocType 'PayPal Settings'
@@ -36,18 +28,10 @@ msgctxt "PayPal Settings"
 msgid "API Password"
 msgstr ""
 
-#. DocType: Razorpay Settings:1
-msgid "API Secret"
-msgstr ""
-
 #. Label of a Password field in DocType 'Razorpay Settings'
 #: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgctxt "Razorpay Settings"
 msgid "API Secret"
-msgstr ""
-
-#. DocType: PayPal Settings:1
-msgid "API Username"
 msgstr ""
 
 #. Label of a Data field in DocType 'PayPal Settings'
@@ -65,17 +49,12 @@ msgid "An error occured during the payment process. Please contact us."
 msgstr ""
 
 #. Name of a DocType
-#. DocType: Braintree Settings:1
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgid "Braintree Settings"
 msgstr ""
 
 #: templates/pages/stripe_checkout.html:41
 msgid "Card Details"
-msgstr ""
-
-#. DocType: PayPal Settings:1
-msgid "Check this if you are testing your payment using the Sandbox API"
 msgstr ""
 
 #. Description of a Check field in DocType 'PayPal Settings'
@@ -106,7 +85,7 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: payment_gateways/doctype/paypal_settings/paypal_settings.py:471
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:469
 msgid "Failed while amending subscription"
 msgstr ""
 
@@ -118,18 +97,10 @@ msgstr ""
 msgid "For more information, {0}."
 msgstr ""
 
-#. DocType: Payment Gateway:1
-msgid "Gateway"
-msgstr ""
-
 #. Label of a Data field in DocType 'Payment Gateway'
 #: payments/doctype/payment_gateway/payment_gateway.json
 msgctxt "Payment Gateway"
 msgid "Gateway"
-msgstr ""
-
-#. DocType: Payment Gateway:1
-msgid "Gateway Controller"
 msgstr ""
 
 #. Label of a Dynamic Link field in DocType 'Payment Gateway'
@@ -138,18 +109,10 @@ msgctxt "Payment Gateway"
 msgid "Gateway Controller"
 msgstr ""
 
-#. DocType: Payment Gateway:1
-msgid "Gateway Settings"
-msgstr ""
-
 #. Label of a Link field in DocType 'Payment Gateway'
 #: payments/doctype/payment_gateway/payment_gateway.json
 msgctxt "Payment Gateway"
 msgid "Gateway Settings"
-msgstr ""
-
-#. DocType: Braintree Settings:1
-msgid "Header Image"
 msgstr ""
 
 #. Label of a Attach Image field in DocType 'Braintree Settings'
@@ -164,12 +127,8 @@ msgctxt "Stripe Settings"
 msgid "Header Image"
 msgstr ""
 
-#: payment_gateways/doctype/paypal_settings/paypal_settings.py:510
+#: payment_gateways/doctype/paypal_settings/paypal_settings.py:508
 msgid "In Valid Request"
-msgstr ""
-
-#. DocType: Paytm Settings:1
-msgid "Industry Type ID"
 msgstr ""
 
 #. Label of a Data field in DocType 'Paytm Settings'
@@ -225,10 +184,6 @@ msgid ""
 "{0}."
 msgstr ""
 
-#. DocType: PayPal Settings:1
-msgid "Mention transaction completion page URL"
-msgstr ""
-
 #. Description of a Data field in DocType 'PayPal Settings'
 #: payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgctxt "PayPal Settings"
@@ -241,10 +196,6 @@ msgctxt "Razorpay Settings"
 msgid "Mention transaction completion page URL"
 msgstr ""
 
-#. DocType: Braintree Settings:1
-msgid "Merchant ID"
-msgstr ""
-
 #. Label of a Data field in DocType 'Braintree Settings'
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgctxt "Braintree Settings"
@@ -255,10 +206,6 @@ msgstr ""
 #: payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgctxt "Paytm Settings"
 msgid "Merchant ID"
-msgstr ""
-
-#. DocType: Paytm Settings:1
-msgid "Merchant Key"
 msgstr ""
 
 #. Label of a Password field in DocType 'Paytm Settings'
@@ -277,7 +224,6 @@ msgid "Pay"
 msgstr ""
 
 #. Name of a DocType
-#. DocType: PayPal Settings:1
 #: payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "PayPal Settings"
 msgstr ""
@@ -291,13 +237,8 @@ msgid "Payment Failed"
 msgstr ""
 
 #. Name of a DocType
-#. DocType: Payment Gateway:1
 #: payments/doctype/payment_gateway/payment_gateway.json
 msgid "Payment Gateway"
-msgstr ""
-
-#. DocType: Braintree Settings:1
-msgid "Payment Gateway Name"
 msgstr ""
 
 #. Label of a Data field in DocType 'Braintree Settings'
@@ -312,21 +253,15 @@ msgctxt "Stripe Settings"
 msgid "Payment Gateway Name"
 msgstr ""
 
-#. DocType: Braintree Settings:1
-msgid "Payment Gateways"
-msgstr ""
-
 #: templates/pages/payment-success.html:3
 msgid "Payment Success"
 msgstr ""
 
-#. DocType: Payment Gateway:1
 #: config/desktop.py:5
 msgid "Payments"
 msgstr ""
 
 #. Name of a DocType
-#. DocType: Paytm Settings:1
 #: payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Paytm Settings"
 msgstr ""
@@ -360,10 +295,6 @@ msgid ""
 "transactions in currency '{0}'"
 msgstr ""
 
-#. DocType: Braintree Settings:1
-msgid "Private Key"
-msgstr ""
-
 #. Label of a Password field in DocType 'Braintree Settings'
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgctxt "Braintree Settings"
@@ -374,18 +305,10 @@ msgstr ""
 msgid "Processing..."
 msgstr ""
 
-#. DocType: Braintree Settings:1
-msgid "Public Key"
-msgstr ""
-
 #. Label of a Data field in DocType 'Braintree Settings'
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgctxt "Braintree Settings"
 msgid "Public Key"
-msgstr ""
-
-#. DocType: Stripe Settings:1
-msgid "Publishable Key"
 msgstr ""
 
 #. Label of a Data field in DocType 'Stripe Settings'
@@ -395,17 +318,12 @@ msgid "Publishable Key"
 msgstr ""
 
 #. Name of a DocType
-#. DocType: Razorpay Settings:1
 #: payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgid "Razorpay Settings"
 msgstr ""
 
 #: payment_gateways/doctype/razorpay_settings/razorpay_settings.py:367
 msgid "Razorpay Signature Verification Failed"
-msgstr ""
-
-#. DocType: PayPal Settings:1
-msgid "Redirect To"
 msgstr ""
 
 #. Label of a Data field in DocType 'PayPal Settings'
@@ -420,18 +338,10 @@ msgctxt "Razorpay Settings"
 msgid "Redirect To"
 msgstr ""
 
-#. DocType: Stripe Settings:1
-msgid "Redirect URL"
-msgstr ""
-
 #. Label of a Data field in DocType 'Stripe Settings'
 #: payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgctxt "Stripe Settings"
 msgid "Redirect URL"
-msgstr ""
-
-#. DocType: Stripe Settings:1
-msgid "Secret Key"
 msgstr ""
 
 #. Label of a Password field in DocType 'Stripe Settings'
@@ -464,10 +374,6 @@ msgstr ""
 msgid "Server Error"
 msgstr ""
 
-#. DocType: PayPal Settings:1
-msgid "Signature"
-msgstr ""
-
 #. Label of a Data field in DocType 'PayPal Settings'
 #: payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgctxt "PayPal Settings"
@@ -484,10 +390,6 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#. DocType: Paytm Settings:1
-msgid "Staging"
-msgstr ""
-
 #. Label of a Check field in DocType 'Paytm Settings'
 #: payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgctxt "Paytm Settings"
@@ -495,7 +397,6 @@ msgid "Staging"
 msgstr ""
 
 #. Name of a DocType
-#. DocType: Stripe Settings:1
 #: payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Stripe Settings"
 msgstr ""
@@ -505,7 +406,6 @@ msgid "Success"
 msgstr ""
 
 #. Name of a role
-#. DocType: Braintree Settings:1
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 #: payment_gateways/doctype/paypal_settings/paypal_settings.json
 #: payment_gateways/doctype/paytm_settings/paytm_settings.json
@@ -522,10 +422,6 @@ msgid ""
 "account."
 msgstr ""
 
-#. DocType: Braintree Settings:1
-msgid "Use Sandbox"
-msgstr ""
-
 #. Label of a Check field in DocType 'Braintree Settings'
 #: payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgctxt "Braintree Settings"
@@ -536,10 +432,6 @@ msgstr ""
 #: payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgctxt "PayPal Settings"
 msgid "Use Sandbox"
-msgstr ""
-
-#. DocType: Paytm Settings:1
-msgid "Website"
 msgstr ""
 
 #. Label of a Data field in DocType 'Paytm Settings'
